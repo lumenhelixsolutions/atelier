@@ -1,7 +1,11 @@
 # atelier
 
 <p align="center">
-  <img src="docs/assets/logo.svg" alt="atelier logo" width="160">
+  <img src="docs/assets/hero.svg" alt="atelier header" width="100%">
+</p>
+
+<p align="center">
+  <img src="docs/assets/logo.svg" alt="atelier logo" width="120">
 </p>
 
 <h3 align="center">Agent formation. Portfolio shell.</h3>
@@ -9,9 +13,9 @@
 <p align="center">DropClass v1 shell — mount agent routes, supervise enrollments, publish portfolio pages.</p>
 
 <p align="center">
-  <a href="https://lumenhelixsolutions.github.io/atelier/">Launch Page</a>
+  <a href="https://lumenhelixlab.github.io/atelier/">Launch Page</a>
   <span> · </span>
-  <a href="https://github.com/lumenhelixsolutions/atelier">GitHub</a>
+  <a href="https://github.com/lumenhelixlab/atelier">GitHub</a>
   <span> · </span>
   <a href="https://lumenhelix.com">LumenHelix</a>
 </p>
@@ -31,7 +35,7 @@ atelier is the LumenHelix portfolio shell for agent formation. v1 powers DropCla
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/lumenhelixsolutions/atelier.git
+git clone https://github.com/lumenhelixlab/atelier.git
 cd atelier
 cd api && python3 -m venv ../.venv && ../.venv/bin/pip install -r requirements.txt
 cd ../app && npm install && npm run dev
@@ -40,7 +44,7 @@ cd ../app && npm install && npm run dev
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/lumenhelixsolutions/atelier.git
+git clone https://github.com/lumenhelixlab/atelier.git
 Set-Location atelier
 cd api
 python -m venv ..\.venv
@@ -53,7 +57,7 @@ npm run dev
 ### Windows (Git Bash / WSL)
 
 ```bash
-git clone https://github.com/lumenhelixsolutions/atelier.git
+git clone https://github.com/lumenhelixlab/atelier.git
 cd atelier
 cd api && python3 -m venv ../.venv && ../.venv/bin/pip install -r requirements.txt
 cd ../app && npm install && npm run dev
